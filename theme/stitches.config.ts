@@ -45,6 +45,7 @@ const {
   },
   media: {
     bp1: '(min-width: 480px)',
+    bp2: '(min-width: 720px)',
   },
 })
 

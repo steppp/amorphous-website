@@ -305,7 +305,13 @@ const letterKeyframe9 = keyframes({
 export const StyledTitle = styled('h1', {
   fontFamily: '$robotoFlex',
   textAlign: 'center',
-  fontSize: '8rem',
+  fontSize: '4.5rem',
+  '@bp1': {
+    fontSize: '6rem',
+  },
+  '@bp2': {
+    fontSize: '8rem',
+  },
 })
 
 export const StyledTitleLetter = styled('span', {
